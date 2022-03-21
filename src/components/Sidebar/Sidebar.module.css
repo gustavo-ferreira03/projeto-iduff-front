@@ -9,6 +9,11 @@
     justify-content: space-between;
 }
 
+.sidebar button:hover {
+    transition: 0.5s;
+    background-color: var(--gray);
+}
+
 .user_info {
     background-color: var(--lighter-blue);
     border: 1px solid var(--black);
