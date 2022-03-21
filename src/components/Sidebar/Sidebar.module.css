@@ -1,9 +1,40 @@
 .sidebar {
+    position: fixed;
     height: 100%;
     width: 240px;
-    background-color: black;
+    border: 1px solid var(--black);
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .user_info {
     background-color: var(--lighter-blue);
+    border: 1px solid var(--black);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.text p {
+    font-weight: 600;
+    text-align: center;
+    max-width: 150px;
+}
+
+.img_container {
+    padding: 10px;
+}
+
+.img_container img {
+    height: 50px;
 }
