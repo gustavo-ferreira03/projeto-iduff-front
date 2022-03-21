@@ -1,0 +1,82 @@
+.btn {
+    font-family: 'Open Sans', sans-serif;
+    background: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+/* STYLES */
+
+/* Primary */
+
+.btn--primary--solid {
+    background-color: var(--light-blue);
+    color: var(--white);
+    border: none;
+}
+
+.btn--primary--outline {
+    color: var(--light-blue);
+    border: 1px solid var(--light-blue);
+}
+
+/* Light Blue */
+.btn--light-blue--solid {
+    background-color: var(--lighter-blue);
+    color: var(--black);
+    border: none;
+}
+
+.btn--light-blue--outline {
+    color: var(--lighter-blue);
+    border: 1px solid var(--black);
+}
+
+/* Red */
+
+.btn--red--solid {
+    background-color: var(--red);
+    color: var(--white);
+    border: none;
+}
+
+.btn--red--outline {
+    color: var(--red);
+    border: 1px solid var(--red);
+}
+
+/* White */
+
+.btn--white {
+    color: var(--black);
+    border: 1px solid var(--black);
+}
+
+.btn--white--shadow {
+    color: var(--black);
+    border: 1px solid var(--black);
+    box-shadow: 4px 4px 4px var(--shadow);
+}
+
+/* SIZES */
+
+.btn--large {
+    width: 160px;
+    height: 40px;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.btn--medium {
+    width: 120px;
+    height: 35px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.btn--small {
+    width: 75px;
+    height: 30px;
+    font-size: 14px;
+    font-weight: 600;
+}
