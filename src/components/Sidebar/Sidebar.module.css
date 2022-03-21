@@ -1,0 +1,9 @@
+.sidebar {
+    height: 100%;
+    width: 240px;
+    background-color: black;
+}
+
+.user_info {
+    background-color: var(--lighter-blue);
+}

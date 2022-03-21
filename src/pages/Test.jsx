@@ -1,5 +1,5 @@
 import React from 'react'
-import Button from '../components/Button/Button'
+import Sidebar from '../components/Sidebar/Sidebar'
 
 export default function Test() {
   return (
