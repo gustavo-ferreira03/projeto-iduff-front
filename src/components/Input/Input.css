@@ -1,12 +1,48 @@
-.input_container input {
-    background-color: var(--light-gray);
+.input_container {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
 }
 
+.input {
+    background-color: var(--light-gray);
+    border: 0.5px solid var(--black);
+    border-radius: 5px;
+    padding: 5px;
+    height: 35px;
+}
+
+.input:focus{
+    outline: none;
+}
+
+/* STYLES */
+
+/* Column */
 .input--column {
     display: flex;
     flex-direction: column;
+    gap: 5px;
 }
 
+/* Row */
 .input--row {
     display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+/* SIZES */
+
+/* Large */
+.input--large {
+    width: 700px;
+}
+
+.input--medium {
+    width: 275px;
+}
+
+.input--small {
+    width: 70px;
 }
