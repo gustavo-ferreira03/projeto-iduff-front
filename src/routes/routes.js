@@ -1,6 +1,6 @@
 import React from 'react'
 import { BrowserRouter, Routes, Route} from 'react-router-dom'
-import {ViewResume} from '../components/ViewResume'
+import {ViewResume} from '../components/ViewResume/ViewResume'
 import App from '../App.jsx'
 import Test from '../pages/Test'
 

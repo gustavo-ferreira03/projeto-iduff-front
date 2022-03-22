@@ -1,0 +1,17 @@
+.white_box{
+    margin: 0 auto;
+    width: 1400px;
+    height: 830px;
+    top: 49px;
+    left:270px;
+    background-color: white;
+    border-color: 1px black;
+}
+
+.v_C{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 3rem;
+    display: flex;
+    align-content: center;
+}

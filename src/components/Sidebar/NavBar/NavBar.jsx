@@ -8,7 +8,7 @@ import student_icon from '../assets/student_icon.png'
 export default function NavBar() {
   return (
     <nav className={styles.navbar}>
-        <Link to="/VisuCuri">
+        <Link to="/ViewResume">
         <NavButton 
             img={calendar_icon}
         >Testando 123</NavButton>
