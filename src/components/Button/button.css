@@ -3,6 +3,7 @@
     background: none;
     border-radius: 3px;
     cursor: pointer;
+    width: fit-content;
 }
 
 /* STYLES */
@@ -62,21 +63,21 @@
 /* SIZES */
 
 .btn--large {
-    width: 160px;
+    min-width: 160px;
     height: 40px;
     font-size: 18px;
     font-weight: 700;
 }
 
 .btn--medium {
-    width: 120px;
+    min-width: 120px;
     height: 35px;
     font-size: 14px;
     font-weight: 600;
 }
 
 .btn--small {
-    width: 75px;
+    min-width: 75px;
     height: 30px;
     font-size: 14px;
     font-weight: 600;

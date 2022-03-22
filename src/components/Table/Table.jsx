@@ -1,7 +1,8 @@
 import React from 'react'
 import styles from './Table.module.css'
+import TableRow from './TableRows/TableRows'
 
-export default function Table({ columns, data, children }) {
+export default function Table({ columns, data }) {
   return (
     <table className={styles.table}>
         <thead>
@@ -10,7 +11,7 @@ export default function Table({ columns, data, children }) {
             </tr>
         </thead>
         <tbody>
-            {children}
+          {<TableRow data={data}></TableRow>}
         </tbody>
     </table>
   )
