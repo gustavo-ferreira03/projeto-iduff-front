@@ -3,9 +3,9 @@ import TableRow from '../components/Table/TableRow/ResumeTableRow'
 import Table from '../components/Table/Table'
 
 const columns = [
-  "teste1",
-  "teste2",
-  "teste3"
+  "Nome",
+  "Período",
+  "CHT"
 ]
 
 const courses = [{

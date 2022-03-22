@@ -1,5 +1,7 @@
 .table {
-    width: 725px;
+    width: 800px;
+    border-collapse: separate;
+    border-spacing: 0 15px;
 }
 
 .table tr {
@@ -10,6 +12,7 @@
 }
 
 .table th {
+    font-weight: 600;
     text-align: center;
     vertical-align: middle;
 }
