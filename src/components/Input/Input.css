@@ -1,0 +1,12 @@
+.input_container input {
+    background-color: var(--light-gray);
+}
+
+.input--column {
+    display: flex;
+    flex-direction: column;
+}
+
+.input--row {
+    display: flex;
+}
