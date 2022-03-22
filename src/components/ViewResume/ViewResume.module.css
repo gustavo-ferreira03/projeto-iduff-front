@@ -1,11 +1,21 @@
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .white_box{
-    margin: 0 auto;
-    width: 844px;
-    height: 634px;
-    top: 49px;
-    left:270px;
+    width: 90%;
+    height: 90%;
     background-color: white;
     border: 1px solid black;
+}
+
+.content_container {
+    width: 80%;
+    display: flex;
+    justify-content: flex-start;
 }
 
 .v_C{
@@ -18,7 +28,8 @@
 }
 
 .List{
-    margin-left: 100px;
+    display: flex;
+    flex-direction: column;
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
     font-size: 1,125rem;
@@ -35,4 +46,9 @@
     font-weight: 600;
     font-size: 1.8rem;
     margin-top: 30px;
+}
+
+.Table {
+    display: flex;
+    justify-content: center;
 }
