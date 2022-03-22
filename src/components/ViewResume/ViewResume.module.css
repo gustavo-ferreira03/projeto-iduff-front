@@ -10,6 +10,7 @@
     height: 90%;
     background-color: white;
     border: 1px solid black;
+    overflow-y: scroll;
 }
 
 .content_container {
@@ -36,15 +37,16 @@
 }
 
 .VizuAqui{
+    margin-left: 5%;
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
-    font-size: 1.4rem;
+    font-size: 18px;
 }
 
 .Curso{
     font-family: 'Open Sans', sans-serif;
     font-weight: 600;
-    font-size: 1.8rem;
+    font-size: 22px;
     margin-top: 30px;
 }
 
