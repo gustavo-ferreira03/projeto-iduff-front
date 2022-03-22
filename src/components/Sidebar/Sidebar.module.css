@@ -1,12 +1,12 @@
 .sidebar {
-    position: fixed;
-    height: 100%;
+    height: 100vh;
     width: 240px;
     border: 1px solid var(--black);
     font-family: 'Open Sans', sans-serif;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    background-color: var(--white);
 }
 
 .sidebar button:hover {
@@ -17,14 +17,16 @@
 .user_info {
     background-color: var(--lighter-blue);
     border: 1px solid var(--black);
-    padding: 20px;
+    padding-top: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 30px;
+    gap: 40px;
+    height:229px;
 }
 
 .text {
+    font-size: 18px;
     display: flex;
     flex-direction: column;
     gap: 10px;

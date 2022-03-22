@@ -8,4 +8,3 @@ export function Course(props){
         <p>{props.ch}</p>
     </div>
 }
-

@@ -1,15 +1,11 @@
-import { Route, Routes } from 'react-router-dom'
-import getRoutes from './routes/routes'
-
 import Sidebar from './components/Sidebar/Sidebar'
+import {Outlet, Link} from 'react-router-dom';
 
 function App() {
   return (
     <>
       <Sidebar />
-      <Routes>
-        {getRoutes()}
-      </Routes>
+      <Outlet />
     </>
   );
 }
