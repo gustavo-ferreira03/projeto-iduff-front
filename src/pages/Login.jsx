@@ -1,5 +1,6 @@
 import React from 'react'
 import styles from "./Login.module.css"
+import LoginForm from '../components/LoginForm/LoginForm'
 
 import iduff_logo from './assets/iduff_logo.png'
 
@@ -13,8 +14,7 @@ export default function Login() {
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris mattis ex vel mauris porta pulvinar. Integer luctus bibendum ex et faucibus. Vivamus sagittis consectetur quam et rhoncus. Cras imperdiet nisi et elementum dictum. Duis nec turpis eleifend, viverra turpis et, egestas felis.</p>
             </div>
             <div className={styles.form_section}>
-                a
-                {/* <LoginForm /> */}
+                <LoginForm />
             </div>
         </div>
     </div>

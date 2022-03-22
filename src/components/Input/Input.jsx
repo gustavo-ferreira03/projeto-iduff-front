@@ -12,13 +12,13 @@ const SIZES = [
     "input--small"
 ]
 
-export default function Input({inputDirection, inputSize, label, type}) {
+export default function Input({onChange, inputDirection, inputSize, label, type}) {
   return (
     <div className={`input_container ${inputDirection}`}>
         <label htmlFor="input">
             {`${label}${ inputDirection == "input--row" ? ":" : "" }`}
         </label>
-        <input type="text" name="input" className={`input ${inputSize}`} type={type}/>
+        <input onChange={onChange} type="text" name="input" className={`input ${inputSize}`} type={type}/>
     </div>
   )
 }
