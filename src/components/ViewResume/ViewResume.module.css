@@ -10,7 +10,7 @@
     height: 90%;
     background-color: white;
     border: 1px solid black;
-    overflow-y: scroll;
+    overflow-y: auto; 
 }
 
 .content_container {
@@ -43,14 +43,13 @@
     font-size: 18px;
 }
 
-.Curso{
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 600;
-    font-size: 22px;
-    margin-top: 30px;
-}
-
 .Table {
     display: flex;
     justify-content: center;
+}
+
+.CurDrop {
+    margin-top: 4%;
+    display: flex;
+    flex-direction: row;
 }

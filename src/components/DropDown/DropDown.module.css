@@ -1,0 +1,20 @@
+.dropdown-toggle{
+    width: 100%;
+    padding: 50px 0;
+    font-size: 1.2rem;
+    margin-top: 30px;
+
+}
+
+.Curso{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 22px;
+}
+
+.dropdownbox{
+    width: 225px;
+    height: 29px;
+    margin-left: 6px;
+    border: 0.5px solid #000000;
+}
