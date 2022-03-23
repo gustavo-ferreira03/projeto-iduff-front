@@ -14,6 +14,7 @@ export default function LoginForm() {
   function handleChange(event) {
     //MUDAR PARA CPF
     setUser({...user, [event.target.name]: event.target.value})
+    localStorage.clear(0)
   }
 
   function handleSubmit(event) {
@@ -22,8 +23,11 @@ export default function LoginForm() {
       user: {...user}
     }
     api.post("/auth/login", data)
-    .then(resp => console.log(resp.data))
-    .catch(error => console.log(error.message))
+    .then(resp => {
+      localStorage.setItem('token', resp.data.token);
+    })
+    .catch(error => console.error(error.message))
+    // teste()
   }
 
   return (
