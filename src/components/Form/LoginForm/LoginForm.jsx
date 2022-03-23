@@ -12,18 +12,12 @@ export default function LoginForm() {
   //MUDAR PARA CPF
   const [user, setUser] = useState({email: "", password: ""})
 
-  function handleCPFChange(event) {
+  function handleChange(event) {
     //MUDAR PARA CPF
-    setUser({...user, email: event.target.value})
-    console.log(user)
+    setUser({...user, [event.target.name]: event.target.value})
   }
 
-  function handlePasswordChange(event) {
-    setUser({...user, password: event.target.value})
-    console.log(user)
-  }
-
-  function handleLogin(event) {
+  function handleSubmit(event) {
     event.preventDefault()
     const data = {
       user: {...user}
@@ -34,23 +28,23 @@ export default function LoginForm() {
   }
 
   return (
-    <form className={styles.form} onSubmit={handleLogin}>
+    <form className={styles.form} onSubmit={handleSubmit} onChange={handleChange}>
         <h2>Acesse o seu id<span className={styles.blue_text}>UFF</span></h2>
         <div>
-          <div className={styles.input_container} onSubmit={handleLogin}>
+          <div className={styles.input_container}>
             <Input
-              onChange={handleCPFChange}
               inputDirection="input--column"
               inputSize="input--medium"
               label="CPF (Somente números)"
+              name="email"
               // MUDAR PARA NUMBER
               type="text"
             />
             <Input 
-              onChange={handlePasswordChange}
               inputDirection="input--column"
               inputSize="input--medium"
               label="Senha"
+              name="password"
               type="password"
             />
           </div>
