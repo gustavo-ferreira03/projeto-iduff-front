@@ -1,6 +1,5 @@
 import React from 'react'
 import styles from './LoginForm.module.css'
-import '../Form.css'
 import Input from '../../Input/Input'
 import Button from '../../Button/Button'
 import { Link } from 'react-router-dom'

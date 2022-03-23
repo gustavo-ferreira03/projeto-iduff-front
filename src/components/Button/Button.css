@@ -4,21 +4,34 @@
     border-radius: 3px;
     cursor: pointer;
     width: fit-content;
+    transition: 0.5s;
 }
 
 /* STYLES */
 
 /* Primary */
-
 .btn--primary--solid {
     background-color: var(--light-blue);
     color: var(--white);
     border: none;
 }
 
+.btn--primary--solid:hover {
+    transition: 0.5s;
+    background-color: transparent;
+    color: var(--light-blue);
+    border: 1px solid var(--light-blue);
+}
+
 .btn--primary--outline {
     color: var(--light-blue);
     border: 1px solid var(--light-blue);
+}
+
+.btn--primary--outline:hover {
+    background-color: var(--light-blue);
+    color: var(--white);
+    border: none;
 }
 
 /* Light Blue */
@@ -28,17 +41,37 @@
     border: none;
 }
 
+.btn--light-blue--solid:hover {
+    transition: 0.5s;
+    background-color: transparent;
+    color: var(--lighter-blue);
+    border: 1px solid var(--lighter-blue);
+}
+
 .btn--light-blue--outline {
     color: var(--lighter-blue);
     border: 1px solid var(--black);
 }
 
-/* Red */
+.btn--light-blue--outline:hover {
+    transform: 0.5s;
+    background-color: var(--lighter-blue);
+    color: var(--white);
+    border: none;
+}
 
+/* Red */
 .btn--red--solid {
     background-color: var(--red);
     color: var(--white);
     border: none;
+}
+
+.btn--red--solid:hover {
+    transition: 0.5s;
+    background-color: transparent;
+    color: var(--red);
+    border: 1px solid var(--red);
 }
 
 .btn--red--outline {
@@ -46,8 +79,14 @@
     border: 1px solid var(--red);
 }
 
-/* White */
+.btn--red--outline:hover {
+    transform: 0.5s;
+    background-color: var(--red);
+    color: var(--white);
+    border: none;
+}
 
+/* White */
 .btn--white {
     color: var(--black);
     border: 1px solid var(--black);
