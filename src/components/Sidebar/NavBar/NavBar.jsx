@@ -20,9 +20,11 @@ export default function NavBar() {
             img={curriculum_icon}
         >Curriculos</NavButton>
         </Link>
+        <Link to="/Classroom">
         <NavButton 
             img={student_icon}
         >Turmas</NavButton>
+        </Link>
         <NavButton 
             img={subscription_icon}
         >Inscrição Online</NavButton>
