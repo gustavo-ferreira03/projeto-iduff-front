@@ -7,7 +7,6 @@ import App from '../App.jsx'
 import Test from '../pages/Test'
 import EditProfile from '../pages/EditProfile/EditProfile'
 
-
 export default function GetRoutes() {
   return (
     <BrowserRouter>

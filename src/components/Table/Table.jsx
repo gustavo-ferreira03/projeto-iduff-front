@@ -24,7 +24,7 @@ export default function Table({ columns, data }) {
     <table className={styles.table}>
         <thead>
             <tr>
-                {columns.map(column => <th>{column}</th>)}
+                {columns.map((column, index) => <th key={index}>{column}</th>)}
             </tr>
         </thead>
         <tbody>
