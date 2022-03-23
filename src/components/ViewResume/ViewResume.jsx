@@ -3,6 +3,7 @@ import Table from '../Table/Table';
 import { Card } from '../Card/Card';
 import Button from '../Button/Button';
 import {DropDown} from '../DropDown/DropDown';
+import {Title} from '../Title/Title';
 
 
 // Precisa colocar as colunas da tabela
@@ -18,7 +19,7 @@ const data = [
     "Seg e Qua, 14h as 16h",
     "60"],
     ["Cálculo 2A",
-    "Seg e Qua, 14h as 16h",
+    "Seg e Qua, 14h as 16h", 
     "60"]
 ]
 
@@ -31,20 +32,18 @@ const courses = [
 export function ViewResume (){
     return(
         <Card>
-            <div classes={classes.content_container}>
-                <h1 className={classes.v_C}>Visualizar currículos</h1>
-                <section className={classes.List}>
-                    <div className={classes.VizuAqui}>
-                            <p>Vizualize aqui o currículo de qualquer um dos cursos da UFF.</p>
-                        <div className={classes.CurDrop}>
-                            <DropDown courses={courses}/>
-                        </div>
+            <Title>Visualizar currículos</Title>
+            <section className={classes.List}>
+                <div className={classes.VizuAqui}>
+                    <p>Vizualize aqui o currículo de qualquer um dos cursos da UFF.</p>
+                    <div className={classes.CurDrop}>
+                        <DropDown courses={courses}/>
                     </div>
-                    <div className={classes.Table}>
-                        <Table columns={columns} data={data}/>
-                    </div>
-                </section>
-            </div>
+                </div>
+                <div className={classes.Table}>
+                    <Table columns={columns} data={data}/>
+                </div>
+            </section> 
         </Card>
     )
 }

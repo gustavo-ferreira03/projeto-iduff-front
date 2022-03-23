@@ -4,15 +4,6 @@
     justify-content: flex-start;
 }
 
-.v_C{
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 600;
-    font-size: 3rem;
-    display: flex;
-    justify-content: center;
-    margin: 40px;
-}
-
 .List{
     display: flex;
     flex-direction: column;
