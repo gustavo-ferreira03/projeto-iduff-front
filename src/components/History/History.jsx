@@ -1,5 +1,4 @@
 import classes from './History.module.css';
-import {Title} from '../Title/Title';
 import {Card} from '../Card/Card';
 import Table from '../Table/Table';
 
@@ -20,11 +19,8 @@ const data = [
 
 export function History(){
     return(
-        <Card>
-            <Title>Histórico</Title>
-            <section className={classes.List}>
-                <Table columns={columns} data={data}/>
-            </section>
+        <Card title="Histórico">
+            <Table columns={columns} data={data}/>
         </Card>
     )
 }
