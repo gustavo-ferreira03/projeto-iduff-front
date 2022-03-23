@@ -9,7 +9,7 @@ import {api} from '../../../services/api'
 
 export default function LoginForm() {
   //MUDAR PARA CPF
-  const [user, setUser] = useState({email: "", password: ""})
+  const [user, setUser] = useState({cpf: "", password: ""})
 
   function handleChange(event) {
     //MUDAR PARA CPF
@@ -35,8 +35,7 @@ export default function LoginForm() {
               inputDirection="input--column"
               inputSize="input--medium"
               label="CPF (Somente números)"
-              name="email"
-              // MUDAR PARA NUMBER
+              name="cpf"
               type="text"
             />
             <Input 

@@ -1,0 +1,20 @@
+.table_input {
+    width: 150px;
+    height: 30px;
+    padding: 5px;
+    margin-left: 15px;
+    font-size: 18px;
+    font-weight: 400;
+    background-color: #EFEFEF;
+    color: #C4C4C4;
+    border: none;
+}
+
+.table_input:focus {
+    outline: none;
+}
+
+.table_input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}

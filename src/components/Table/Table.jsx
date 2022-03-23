@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from './Table.module.css'
-import TableRow from './TableRows/TableRows'
+import TableRow from './TableRows'
 
 // // Precisa colocar as colunas da tabela
 // const columns = [
