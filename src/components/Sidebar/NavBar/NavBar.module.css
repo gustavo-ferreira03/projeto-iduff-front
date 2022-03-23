@@ -14,3 +14,7 @@
     margin-left: 5px;
     height: 20px;
 }
+
+.navbar a {
+    text-decoration: none;
+}

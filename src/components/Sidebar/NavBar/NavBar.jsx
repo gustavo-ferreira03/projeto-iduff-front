@@ -10,12 +10,12 @@ import history_icon from '../assets/history_icon.png';
 export default function NavBar() {
   return (
     <nav className={styles.navbar}>
-        <Link to="/History">
+        <Link to="/history">
         <NavButton
             img={history_icon}
         >Histórico</NavButton>
         </Link>
-        <Link to="/ViewResume">
+        <Link to="/view_resume">
         <NavButton 
             img={curriculum_icon}
         >Curriculos</NavButton>

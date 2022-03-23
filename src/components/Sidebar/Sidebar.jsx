@@ -4,8 +4,11 @@ import NavBar from './NavBar/NavBar'
 
 import styles from './Sidebar.module.css'
 import uff_logo from './assets/uff-logo.png'
+import { useState } from 'react'
 
 export default function Sidebar() {
+  const [user, setUser] = useState({})
+
   return (
     <div className={styles.sidebar}>
         <div>

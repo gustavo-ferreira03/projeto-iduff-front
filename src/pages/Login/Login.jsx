@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from "./Login.module.css"
-import LoginForm from '../../components/LoginForm/LoginForm'
+import LoginForm from '../../components/Form/LoginForm/LoginForm'
 
 import iduff_logo from '../assets/iduff_logo.png'
 
