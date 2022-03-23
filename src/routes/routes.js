@@ -4,6 +4,7 @@ import {ViewResume} from '../pages/ViewResume/ViewResume'
 import {History} from '../pages/History/History'
 import App from '../App.jsx'
 import Test from '../pages/Test'
+import EditProfile from '../pages/EditProfile/EditProfile'
 
 
 export default function GetRoutes() {
@@ -12,8 +13,9 @@ export default function GetRoutes() {
         <Routes>
             <Route path="/test" element={<Test />} />
             <Route path="/" element={<App />}>
-              <Route path='/ViewResume' element={<ViewResume />}></Route>
-              <Route path='/History' element={<History />}></Route>
+              <Route path='/view_resume' element={<ViewResume />}></Route>
+              <Route path='/history' element={<History />}></Route>
+              <Route path='/edit_profile' element={<EditProfile />}></Route>
             </Route>
         </Routes>
     </BrowserRouter>
