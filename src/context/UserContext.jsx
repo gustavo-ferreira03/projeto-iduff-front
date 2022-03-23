@@ -13,7 +13,7 @@ export default function ThemeProvider() {
     })
 
     return (
-        <ThemeContext.Provider value={user}>
+        <ThemeContext.Provider value={current_user}>
             {children}
         </ThemeContext.Provider>
     )
