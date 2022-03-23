@@ -1,4 +1,10 @@
-.List{
+.List {
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    padding: 5%;
+}
+
+.List table {
+    width: 100%;
 }
