@@ -9,16 +9,12 @@ import EditProfile from '../pages/EditProfile/EditProfile'
 
 export default function GetRoutes() {
   return (
-    <BrowserRouter>
-        <Routes>
-            <Route path="/test" element={<Test />} />
-            <Route path="/" element={<App />}>
-              <Route path='/view_resume' element={<ViewResume />}></Route>
-              <Route path='/history' element={<History />}></Route>
-              <Route path='/edit_profile' element={<EditProfile />}></Route>
-              <Route path='/classroom' element={<Classroom />}></Route>
-            </Route>
-        </Routes>
-    </BrowserRouter>
+      <Routes>
+          <Route path="/test" element={<Test />} />
+          <Route path='/view_resume' element={<ViewResume />}></Route>
+          <Route path='/history' element={<History />}></Route>
+          <Route path='/edit_profile' element={<EditProfile />}></Route>
+          <Route path='/classroom' element={<Classroom />}></Route>
+      </Routes>
   )
 }

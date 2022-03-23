@@ -1,9 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './styles/index.css';
-import GetRoutes from './routes/routes'
+import App from './App';
+import { BrowserRouter as Router } from 'react-router-dom'
 
 ReactDOM.render(
-  <GetRoutes/>,
+  <Router>
+    <App />
+  </Router>,
   document.getElementById('root')
 );
