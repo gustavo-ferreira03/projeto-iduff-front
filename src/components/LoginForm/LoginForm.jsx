@@ -8,10 +8,12 @@ import { useState } from 'react'
 import {api} from '../../services/api'
 
 export default function LoginForm() {
-  const [user, setUser] = useState({cpf: "", password: ""})
+  //MUDAR PARA CPF
+  const [user, setUser] = useState({email: "", password: ""})
 
   function handleCPFChange(event) {
-    setUser({...user, cpf: event.target.value})
+    //MUDAR PARA CPF
+    setUser({...user, email: event.target.value})
     console.log(user)
   }
 
@@ -26,9 +28,9 @@ export default function LoginForm() {
       user: {...user}
     }
     api.post("/auth/login", data)
-    .then(resp => console.log(resp))
+    .then(resp => console.log(resp.data))
+    .catch(error => console.log(error.message))
   }
-
 
   return (
     <form className={styles.form} onSubmit={handleLogin}>
@@ -40,7 +42,8 @@ export default function LoginForm() {
               inputDirection="input--column"
               inputSize="input--medium"
               label="CPF (Somente números)"
-              type="number"
+              // MUDAR PARA NUMBER
+              type="text"
             />
             <Input 
               onChange={handlePasswordChange}
