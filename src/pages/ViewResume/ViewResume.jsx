@@ -1,8 +1,8 @@
 import classes from './ViewResume.module.css';
-import Table from '../Table/Table';
-import { Card } from '../Card/Card';
-import Button from '../Button/Button';
-import {DropDown} from '../DropDown/DropDown';
+import Table from '../../components/Table/Table';
+import { Card } from '../../components/Card/Card';
+import Button from '../../components/Button/Button';
+import {DropDown} from '../../components/DropDown/DropDown';
 
 
 // Precisa colocar as colunas da tabela

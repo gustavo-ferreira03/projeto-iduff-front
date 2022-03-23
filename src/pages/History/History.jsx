@@ -1,6 +1,6 @@
 import classes from './History.module.css';
-import {Card} from '../Card/Card';
-import Table from '../Table/Table';
+import {Card} from '../../components/Card/Card';
+import Table from '../../components/Table/Table';
 
 const columns = [
     "Nome",
