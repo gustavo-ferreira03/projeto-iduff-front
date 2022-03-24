@@ -1,5 +1,5 @@
 import axios from 'axios'
 
 export const api = axios.create({
-    baseURL: "https://projeto-final-equipe1.herokuapp.com/"
+    baseURL: "https://projeto-final-2022-1.herokuapp.com"
 })

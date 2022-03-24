@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import { BrowserRouter, Routes, Route} from 'react-router-dom'
 import {ViewResume} from '../pages/ViewResume/ViewResume'
 import {History} from '../pages/History/History'
